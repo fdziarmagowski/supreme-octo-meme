@@ -12,3 +12,4 @@ spec:
   project: default
   source:
     path: hello-world
+    repoURL: https://github.com/fdziarmagowski/supreme-octo-meme.git
