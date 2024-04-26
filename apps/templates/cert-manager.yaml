@@ -20,3 +20,8 @@ spec:
   destination:
     namespace: cert-manager
     server: {{ .Values.spec.destination.server }}
+  syncPolicy:
+    automated:
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
