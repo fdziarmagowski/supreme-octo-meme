@@ -13,3 +13,6 @@ spec:
   source:
     path: hello-world
     repoURL: {{ .Values.spec.source.repoURL }}
+  syncPolicy:
+    automated:
+      selfHeal: true
